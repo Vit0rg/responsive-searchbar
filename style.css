@@ -1,0 +1,85 @@
+:root
+{
+  --neutral: 0, 0%;
+  --rose: 320;
+}
+
+*:focus
+{
+  outline: .3rem solid hsl(var(--neutral), 100%);
+}
+
+body
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, hsl(var(--rose), 100%, 25%), hsl(var(--neutral), 5%));
+}
+
+.search-wrapper
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.search-wrapper > label
+{
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: .2rem .2rem hsl(var(--neutral), 10%);
+  color: hsl(var(--neutral), 100%);
+}
+
+#search
+{
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: hsl(var(--neutral), 5%);
+  color: hsl(var(--neutral), 100%);
+  border-radius: 1.5rem;
+  box-shadow: .2rem .1rem hsl(var(--neutral), 100%);
+}
+
+.user-cards
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.card
+{
+  padding: .5rem;
+  text-decoration: none;
+  background-color: hsl(var(--neutral), 5%);
+  color: hsl(var(--neutral), 100%);
+  border-radius: 1rem;
+  border: .2rem solid hsl(var(--neutral), 10%);
+  box-shadow: .2rem .2rem hsl(var(--rose), 50%, 51%);
+}
+
+.card:hover
+{
+  filter: invert(.95);
+}
+
+.card > .header
+{
+  margin-bottom: .5rem;
+}
+
+.card > .body
+{
+  font-size: .9rem;
+  color: hsl(var(--neutral), 45%);
+}
+
+.hidden
+{
+  display: none;
+}
