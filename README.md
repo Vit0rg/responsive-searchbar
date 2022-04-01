@@ -10,8 +10,8 @@ Página autoral criada com base no design e lógica apresentada no vídeo [How T
 [Github-page](https://vit0rg.github.io/responsive-searchbar/)
 
 ### Preview:
-[Computador](https://github.com/Vit0rg/responsive-searchbar/img/Desktop.png)
-[Móvel](https://github.com/Vit0rg/responsive-searchbar/img/Mobile.png)
+[Computador](https://github.com/Vit0rg/responsive-searchbar/blob/master/img/Desktop.png)
+[Móvel](https://github.com/Vit0rg/responsive-searchbar/blob/master/img/Mobile.png)
 
 ### Tecnologias usadas:
 > HTML5
@@ -37,8 +37,8 @@ Author page created based on the design and logic presented in the video [How To
 
 
 ### Preview:
-[Desktop](https://github.com/Vit0rg/responsive-searchbar/img/Desktop.png)
-[Mobile](https://github.com/Vit0rg/responsive-searchbar/img/Mobile.png)
+[Desktop](https://github.com/Vit0rg/responsive-searchbar/blob/master/img/Desktop.png)
+[Mobile](https://github.com/Vit0rg/responsive-searchbar/blob/master/img/Mobile.png)
 
 ### Available at:
 [Github-page](https://vit0rg.github.io/responsive-searchbar/)
